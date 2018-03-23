@@ -7,12 +7,11 @@ noremap t       l
 
 noremap L		gg
 noremap H		G
-noremap v		$
 
-nnoremap <C-s>	<C-w>h
-nnoremap <C-h>	<C-w>j
-nnoremap <C-l>	<C-w>k
-nnoremap <C-t>	<C-w>l
+nnoremap <Left>	<C-w>h
+nnoremap <Down>	<C-w>j
+nnoremap <Up>	<C-w>k
+nnoremap <Right>	<C-w>l
 
 " ビジュアルモード
 nnoremap e		v
@@ -24,8 +23,22 @@ inoremap <silent> <C-j> <C-^><C-r>=IMState('FixMode')<CR>
 
 nnoremap \|		:vs<CR>
 
-nnoremap <silent> $ :Bclose<CR>
+nnoremap <silent> ! :Bclose<CR>
+
+" quickfix 移動
+map <C-h> :cnext<CR>
+map <C-l> :cprevious<CR>
 
 " ジャンプリストを使用して戻る
 noremap <C-b> <C-o>
 noremap <C-r> <C-i>
+
+" --------- vim-go ---------
+au FileType go nmap ,r <Plug>(go-run)
+au FileType go nmap ,b <Plug>(go-build)
+au FileType go nmap ,h <Plug>(go-doc)
+au FileType go nmap ,t <Plug>(go-test)
+au FileType go nmap ,d <Plug>(go-decls)
+au FileType go nmap ,D <Plug>(go-decls-dir)
+au FileType go nmap gd <Plug>(go-def)
+au FileType go nmap <C-t> <Plug>(go-def-pop)

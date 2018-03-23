@@ -12,6 +12,7 @@ set undofile
 set viminfo+=n~/.cache/vim/viminfo.txt
 
 set autoread
+set autowrite
 
 set showcmd
 set showmatch
@@ -22,3 +23,5 @@ set shiftwidth=2
 set hlsearch
 
 set autochdir
+
+set updatetime=100
