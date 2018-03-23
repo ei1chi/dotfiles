@@ -11,6 +11,8 @@ noremap $ 0
 noremap 0 $
 
 nnoremap T		zt
+map	{	[[T
+map	} ]]T
 
 nnoremap <Left>	<C-w>h
 nnoremap <Down>	<C-w>j
