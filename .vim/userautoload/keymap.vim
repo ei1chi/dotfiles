@@ -47,4 +47,31 @@ au FileType go nmap ;t <Plug>(go-test)
 au FileType go nmap ;d :GoDecls<CR>
 au FileType go nmap ;D :GoDeclsDir<CR>
 au FileType go nmap gd <Plug>(go-def)
-au FileType go nmap gb <Plug>(go-def-pop)
+au FileType go nmap gD <Plug>(go-def-pop)
+
+" --------- neosnippet ---------
+imap <C-k>	<Plug>(neosnippet_expand_or_jump)
+smap <C-k>	<Plug>(neosnippet_expand_or_jump)
+smap <C-k>	<Plug>(neosnippet_expand_target)
+
+imap <expr><TAB>
+			\ pumvisible() ? "\<C-n>" :
+			\ neosnippet#expandable_or_jumpable() ?
+			\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+
+" --------- gina.vim ---------
+nnoremap <silent> gis		:Gina status<CR>
+nnoremap <silent> gic		:Gina commit<CR>
+
+" --------- clever-f ---------
+map r <Plug>(clever-f-f)
+map b <Plug>(clever-f-F)
+
+" --------- ctrlp ---------
+nnoremap ga :<C-u>CtrlPMixed<CR>
+nnoremap gg :<C-u>CtrlP<CR>
+nnoremap gb :<C-u>CtrlPBuffer<CR>
+nnoremap gl :<C-u>CtrlPMRUFiles<CR>
+
+" --------- easymotion ---------
+nmap k <Plug>(easymotion-overwin-f2)
