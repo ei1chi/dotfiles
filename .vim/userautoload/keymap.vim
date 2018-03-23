@@ -7,6 +7,10 @@ noremap t       l
 
 noremap L		gg
 noremap H		G
+noremap $ 0
+noremap 0 $
+
+nnoremap T		zt
 
 nnoremap <Left>	<C-w>h
 nnoremap <Down>	<C-w>j
@@ -26,19 +30,21 @@ nnoremap \|		:vs<CR>
 nnoremap <silent> ! :Bclose<CR>
 
 " quickfix 移動
-map <C-h> :cnext<CR>
-map <C-l> :cprevious<CR>
+nnoremap <C-h> :cnext<CR>
+nnoremap <C-l> :cprevious<CR>
+nnoremap <C-c> :cclose<CR>
 
 " ジャンプリストを使用して戻る
 noremap <C-b> <C-o>
 noremap <C-r> <C-i>
 
 " --------- vim-go ---------
-au FileType go nmap ,r <Plug>(go-run)
-au FileType go nmap ,b <Plug>(go-build)
-au FileType go nmap ,h <Plug>(go-doc)
-au FileType go nmap ,t <Plug>(go-test)
-au FileType go nmap ,d <Plug>(go-decls)
-au FileType go nmap ,D <Plug>(go-decls-dir)
+au FileType go nmap ;r <Plug>(go-run)
+au FileType go nmap ;b <Plug>(go-build)
+au FileType go nmap ;h <Plug>(go-doc)
+au FileType go nmap ;H :GoDescribe<CR>
+au FileType go nmap ;t <Plug>(go-test)
+au FileType go nmap ;d :GoDecls<CR>
+au FileType go nmap ;D :GoDeclsDir<CR>
 au FileType go nmap gd <Plug>(go-def)
-au FileType go nmap <C-t> <Plug>(go-def-pop)
+au FileType go nmap gb <Plug>(go-def-pop)
