@@ -3,10 +3,7 @@ call plug#begin('~/.vim/plugins')
 " カラースキーム
 Plug 'cocopon/iceberg.vim'
 Plug 'KKPMW/moonshine-vim'
-
-" ファイラー
-Plug 'cocopon/vaffle.vim'
-
+"
 " 多重起動防止
 Plug 'thinca/vim-singleton'
 
@@ -47,9 +44,6 @@ Plug 'mattn/emmet-vim'
 " コメントアウト
 Plug 'tyru/caw.vim'
 
-" markdown リアルタイムプレビュー
-" Plug 'miyakogi/livemark.vim'
-
 " ウィンドウを崩さずにバッファを閉じる
 Plug 'rbgrouleff/bclose.vim'
 
@@ -71,5 +65,8 @@ Plug 'hushicai/tagbar-javascript.vim'
 " スニペット
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
+
+" 使い捨てファイル
+Plug 'Shougo/junkfile.vim'
 
 call plug#end()

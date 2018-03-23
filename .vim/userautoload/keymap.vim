@@ -75,3 +75,6 @@ nnoremap gl :<C-u>CtrlPMRUFiles<CR>
 
 " --------- easymotion ---------
 nmap k <Plug>(easymotion-overwin-f2)
+
+" --------- junkfile ---------
+nmap jj :JunkfileOpen 
