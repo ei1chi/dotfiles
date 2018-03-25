@@ -69,6 +69,10 @@ nnoremap <silent> gic		:Gina commit<CR>
 map r <Plug>(clever-f-f)
 map b <Plug>(clever-f-F)
 
+" --------- surround ---------
+nmap	d)	<Plug>Dsurround
+nmap	c)	<Plug>Csurround
+
 " --------- ctrlp ---------
 nnoremap ga :<C-u>CtrlPMixed<CR>
 nnoremap gg :<C-u>CtrlP<CR>
