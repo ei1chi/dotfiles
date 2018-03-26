@@ -25,6 +25,9 @@ Plug 'easymotion/vim-easymotion'
 " clever-f
 Plug 'rhysd/clever-f.vim'
 
+" surround
+Plug 'tpope/vim-surround'
+
 " QuickRun
 Plug 'thinca/vim-quickrun'
 
