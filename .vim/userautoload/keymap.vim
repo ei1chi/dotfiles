@@ -29,7 +29,7 @@ inoremap <silent> <C-j> <C-^><C-r>=IMState('FixMode')<CR>
 
 nnoremap \|		:vs<CR>
 
-nnoremap <silent> ! :Bclose<CR>
+nnoremap <silent> # :Bclose<CR>
 
 " quickfix 移動
 nnoremap <C-h> :cnext<CR>
