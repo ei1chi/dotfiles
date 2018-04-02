@@ -25,6 +25,10 @@ Plug 'easymotion/vim-easymotion'
 " clever-f
 Plug 'rhysd/clever-f.vim'
 
+" yank時カーソル復帰阻止
+Plug 'kana/vim-operator-user'
+Plug 'osyo-manga/vim-operator-stay-cursor'
+
 " surround
 Plug 'tpope/vim-surround'
 

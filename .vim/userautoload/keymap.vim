@@ -14,6 +14,8 @@ nnoremap T		zt
 map	{	[[T
 map } ]]T
 
+map y <Plug>(operator-stay-cursor-yank)
+
 nnoremap <Left>	<C-w>h
 nnoremap <Down>	<C-w>j
 nnoremap <Up>	<C-w>k
