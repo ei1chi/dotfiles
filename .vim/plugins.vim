@@ -19,6 +19,13 @@ Plug 'ctrlpvim/ctrlp.vim'
 " Go
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 
+" TypeScript
+Plug 'Quramy/tsuquyomi'
+
+" TypeScript Syntax Highlight
+Plug 'leafgarland/typescript-vim'
+Plug 'jason0x43/vim-js-indent'
+
 " easymotion
 Plug 'easymotion/vim-easymotion'
 

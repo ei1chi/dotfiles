@@ -53,6 +53,13 @@ au FileType go nmap ,D :GoDeclsDir<CR>
 au FileType go nmap gd <Plug>(go-def)
 au FileType go nmap gD <Plug>(go-def-pop)
 
+" --------- typescript(tsuquyomi) ---------
+au FileType typescript nmap gd <Plug>(TsuquyomiDefinition)
+au FileType typescript nmap gD <Plug>(TsuquyomiGoBack)
+au FileType typescript nmap ,f <Plug>(TsuquyomiReferences)
+au FileType typescript nmap ,n <Plug>(TsuquyomiRenameSymbol)
+au BufWritePost *.ts silent exec "!tsfmt -r %:p"
+
 " --------- neosnippet ---------
 imap <C-k>	<Plug>(neosnippet_expand_or_jump)
 smap <C-k>	<Plug>(neosnippet_expand_or_jump)
