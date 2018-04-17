@@ -22,19 +22,10 @@ Plug 'Valloric/YouCompleteMe'
 " Go
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 
-<<<<<<< HEAD
 " TypeScirpt
 Plug 'leafgarland/typescript-vim'
 Plug 'Quramy/tsuquyomi'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
-=======
-" TypeScript
-Plug 'Quramy/tsuquyomi'
-
-" TypeScript Syntax Highlight
-Plug 'leafgarland/typescript-vim'
-Plug 'jason0x43/vim-js-indent'
->>>>>>> 80e9faaa0b8525e012c769bd3fef106c7077f439
 
 " easymotion
 Plug 'easymotion/vim-easymotion'
