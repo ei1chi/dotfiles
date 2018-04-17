@@ -51,11 +51,10 @@ au FileType go nmap ,D :GoDeclsDir<CR>
 au FileType go nmap gd <Plug>(go-def)
 au FileType go nmap gD <Plug>(go-def-pop)
 
-" --------- vim-go ---------
+" --------- typescript ---------
 au FileType TypeScript nmap ,f <Plug>(TsuquyomiReferences)
 au FileType TypeScript nmap gd <Plug>(TsuquyomiDefinition)
 au FileType TypeScript nmap gD <Plug>(TsuquyomiGoBack)
-
 
 " --------- neosnippet ---------
 imap <C-k>	<Plug>(neosnippet_expand_or_jump)
