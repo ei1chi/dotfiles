@@ -26,6 +26,7 @@ Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'leafgarland/typescript-vim'
 Plug 'Quramy/tsuquyomi'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+Plug 'w0rp/ale'
 
 " easymotion
 Plug 'easymotion/vim-easymotion'
