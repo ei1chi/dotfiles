@@ -7,8 +7,6 @@ noremap t       l
 
 noremap L		gg
 noremap H		G
-noremap $ 0
-noremap 0 $
 
 nnoremap T		zt
 map	{	[[T
@@ -52,6 +50,12 @@ au FileType go nmap ,d :GoDecls<CR>
 au FileType go nmap ,D :GoDeclsDir<CR>
 au FileType go nmap gd <Plug>(go-def)
 au FileType go nmap gD <Plug>(go-def-pop)
+
+" --------- vim-go ---------
+au FileType TypeScript nmap ,f <Plug>(TsuquyomiReferences)
+au FileType TypeScript nmap gd <Plug>(TsuquyomiDefinition)
+au FileType TypeScript nmap gD <Plug>(TsuquyomiGoBack)
+
 
 " --------- neosnippet ---------
 imap <C-k>	<Plug>(neosnippet_expand_or_jump)

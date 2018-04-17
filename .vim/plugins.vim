@@ -16,8 +16,16 @@ Plug 'fuenor/im_control.vim'
 " 汎用セレクタ
 Plug 'ctrlpvim/ctrlp.vim'
 
+" 補完
+Plug 'Valloric/YouCompleteMe'
+
 " Go
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+
+" TypeScirpt
+Plug 'leafgarland/typescript-vim'
+Plug 'Quramy/tsuquyomi'
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 
 " easymotion
 Plug 'easymotion/vim-easymotion'
