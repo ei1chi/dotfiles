@@ -3,7 +3,11 @@ call plug#begin('~/.vim/plugins')
 " カラースキーム
 Plug 'cocopon/iceberg.vim'
 Plug 'KKPMW/moonshine-vim'
-"
+Plug 'nightsense/snow'
+
+" tagbar
+Plug 'majutsushi/tagbar'
+
 " 多重起動防止
 Plug 'thinca/vim-singleton'
 
@@ -17,7 +21,10 @@ Plug 'fuenor/im_control.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 
 " 補完
-Plug 'Valloric/YouCompleteMe'
+" Plug 'Valloric/YouCompleteMe'
+
+" 括弧オペレータ
+Plug 'machakann/vim-sandwich'
 
 " Go
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
@@ -31,15 +38,9 @@ Plug 'w0rp/ale'
 " easymotion
 Plug 'easymotion/vim-easymotion'
 
-" clever-f
-Plug 'rhysd/clever-f.vim'
-
 " yank時カーソル復帰阻止
 Plug 'kana/vim-operator-user'
 Plug 'osyo-manga/vim-operator-stay-cursor'
-
-" surround
-Plug 'tpope/vim-surround'
 
 " QuickRun
 Plug 'thinca/vim-quickrun'
@@ -62,15 +63,6 @@ Plug 'tyru/caw.vim'
 
 " ウィンドウを崩さずにバッファを閉じる
 Plug 'rbgrouleff/bclose.vim'
-
-" 高速検索
-Plug 'rking/ag.vim'
-
-" denite
-Plug 'Shougo/denite.nvim'
-
-" js静的解析
-Plug 'ternjs/tern_for_vim'
 
 " tagbar
 Plug 'majutsushi/tagbar'

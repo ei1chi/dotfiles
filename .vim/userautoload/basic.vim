@@ -22,6 +22,6 @@ set shiftwidth=2
 
 set hlsearch
 
-set autochdir
+" set autochdir
 
 set updatetime=100

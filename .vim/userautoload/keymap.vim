@@ -1,18 +1,33 @@
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
-noremap s       h
-noremap h       j
-noremap l       k
-noremap t       l
+noremap s	h
+noremap h	j
+noremap l	k
+noremap t	l
 
-noremap L		gg
-noremap H		G
+noremap S ^
+noremap T $
+map L <Plug>(easymotion-k)
+map H <Plug>(easymotion-j)
 
-nnoremap T		zt
-map	{	[[T
-map } ]]T
+nnoremap <C-h> :cnext<CR>
+nnoremap <C-l> :cprevious<CR>
+nnoremap <C-c> :cclose<CR>
+nnoremap <C-s> <C-o>
+nnoremap <C-t> <C-i>
+nnoremap <C-g> zt
 
+map { [[zt
+map } ]]zt
+
+map Y y$
 map y <Plug>(operator-stay-cursor-yank)
+
+map f <Plug>(easymotion-overwin-f2)
+map r <Plug>(easymotion-bd-fl)
+map k e<Plug>(easymotion-bd-fl)
+noremap b N
+noremap m n
 
 nnoremap <Left>	<C-w>h
 nnoremap <Down>	<C-w>j
@@ -20,25 +35,20 @@ nnoremap <Up>	<C-w>k
 nnoremap <Right>	<C-w>l
 
 " ビジュアルモード
-nnoremap e		v
-nnoremap E		V
-nnoremap <C-e>		<C-v>
+nnoremap e v
+nnoremap n V
+nnoremap <C-e> <C-v>
+
+" tagbar
+nmap <Space> :TagbarToggle<CR>
 
 " 日本語入力固定
 inoremap <silent> <C-j> <C-^><C-r>=IMState('FixMode')<CR>
 
 nnoremap \|		:vs<CR>
 
-nnoremap <silent> # :Bclose<CR>
-
-" quickfix 移動
-nnoremap <C-h> :cnext<CR>
-nnoremap <C-l> :cprevious<CR>
-nnoremap <C-c> :cclose<CR>
-
-" ジャンプリストを使用して戻る
-noremap <C-b> <C-o>
-noremap <C-r> <C-i>
+noremap & ~
+nnoremap <silent> v :Bclose<CR>
 
 " --------- vim-go ---------
 au FileType go nmap ,r <Plug>(go-run)
@@ -70,25 +80,13 @@ imap <expr><TAB>
 nnoremap <silent> gis		:Gina status<CR>
 nnoremap <silent> gic		:Gina commit<CR>
 
-" --------- clever-f ---------
-map r <Plug>(clever-f-f)
-map b <Plug>(clever-f-F)
-
-" --------- surround ---------
-nmap	d)	<Plug>Dsurround
-nmap	c)	<Plug>Csurround
-
 " --------- ctrlp ---------
 nnoremap ga :<C-u>CtrlPMixed<CR>
-nnoremap gg :<C-u>CtrlP<CR>
 nnoremap gb :<C-u>CtrlPBuffer<CR>
 nnoremap gl :<C-u>CtrlPMRUFiles<CR>
-
-" --------- easymotion ---------
-nmap k <Plug>(easymotion-overwin-f2)
 
 " --------- junkfile ---------
 nmap jj :JunkfileOpen 
 
 " --------- QuickRun ---------
-nmap gq :QuickRun<CR>
+nmap ,q :QuickRun<CR>
