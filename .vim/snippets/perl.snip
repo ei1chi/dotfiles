@@ -1,0 +1,22 @@
+snippet u
+  use strict;
+  use warnings;
+  use utf8;
+
+  ${0}
+
+snippet env
+  #!/usr/bin/perl
+  use strict;
+  use warnings;
+  use utf8;
+
+  ${0}
+
+snippet p
+  use DDP { deparse => 1, use_prototypes => 0 };
+  DDP::p ${0}
+
+snippet readlet
+  open my $fh, '<', ${0} or die "failed to open file: $!";
+  my $content = do { local $/; <$fh> };
