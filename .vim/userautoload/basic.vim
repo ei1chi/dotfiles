@@ -21,7 +21,10 @@ set tabstop=2
 set shiftwidth=2
 
 set hlsearch
+set scrolloff=4
 
 " set autochdir
 
 set updatetime=100
+
+colorscheme iceberg

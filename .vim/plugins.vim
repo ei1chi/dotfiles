@@ -9,7 +9,9 @@ Plug 'nightsense/snow'
 Plug 'majutsushi/tagbar'
 
 " 多重起動防止
-Plug 'thinca/vim-singleton'
+if has('clientserver')
+	Plug 'thinca/vim-singleton'
+endif
 
 " 即時再起動
 Plug 'tyru/restart.vim'
