@@ -28,3 +28,10 @@ set scrolloff=4
 set updatetime=100
 
 colorscheme iceberg
+
+" ft specific settings
+silent au BufWritePost *.pl silent :%! perltidy
+augroup filetypedetect
+	au! BufNewFile,BufRead *.t setf perl
+	au! BufNewFile,BufRead *.psgi setf perl
+augroup END
