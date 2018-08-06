@@ -26,7 +26,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 " Plug 'Valloric/YouCompleteMe'
 
 " 括弧オペレータ
-Plug 'machakann/vim-sandwich'
+" Plug 'machakann/vim-sandwich'
 
 " スムーズスクロール
 Plug 'yuttie/comfortable-motion.vim'
