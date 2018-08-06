@@ -28,6 +28,9 @@ Plug 'ctrlpvim/ctrlp.vim'
 " 括弧オペレータ
 Plug 'machakann/vim-sandwich'
 
+" スムーズスクロール
+Plug 'yuttie/comfortable-motion.vim'
+
 " Go
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 

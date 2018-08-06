@@ -188,3 +188,5 @@
 # }
 #
 # alias cd=cd_func
+
+PATH=$PATH:usr/local/bin
