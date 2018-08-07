@@ -1,3 +1,6 @@
 ﻿.DS_Store
 ._.DS_Store
 .vim/plugins/
+.zsh/.zcompdump
+.zsh/.zcompdump.zwc
+.zsh/.zhistory
