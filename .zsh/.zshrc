@@ -32,12 +32,13 @@ alias ll='ls -l'
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
-alias cat='cat -n'
+alias awk='gawk'
+# alias cat='cat -n'
 alias less='less -NM'
 alias i='git status'
 
 # zplug
-export ZPLUG_HOME=/usr/local/opt/zplug
+export ZPLUG_HOME=$ZDOTDIR/.zplug
 source $ZPLUG_HOME/init.zsh
 
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
