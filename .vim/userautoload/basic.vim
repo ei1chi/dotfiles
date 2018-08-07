@@ -23,6 +23,8 @@ set shiftwidth=2
 set hlsearch
 set scrolloff=4
 
+set backspace=eol,indent,start
+
 " set autochdir
 
 set updatetime=100
