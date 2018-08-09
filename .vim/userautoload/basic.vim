@@ -39,7 +39,7 @@ function! s:format_perl()
 	unlet cursor
 endfunction
 
-silent au BufWritePost *.pl silent call <SID>format_perl()
+silent au BufWritePre *.pl silent call <SID>format_perl()
 augroup filetypedetect
 	au! BufNewFile,BufRead *.t setf perl
 	au! BufNewFile,BufRead *.psgi setf perl
