@@ -43,4 +43,5 @@ silent au BufWritePost *.pl silent call <SID>format_perl()
 augroup filetypedetect
 	au! BufNewFile,BufRead *.t setf perl
 	au! BufNewFile,BufRead *.psgi setf perl
+	au! FileType perl setlocal softtabstop=2 expandtab
 augroup END

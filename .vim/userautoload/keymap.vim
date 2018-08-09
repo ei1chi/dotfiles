@@ -52,6 +52,7 @@ nnoremap <silent> v :Bclose<CR>
 
 " -------- QuickRun(default) --------
 nmap ,r :QuickRun<CR>
+nmap ,a :QuickRun -args 
 
 " --------- vim-go ---------
 au FileType go nmap ,r <Plug>(go-run)
