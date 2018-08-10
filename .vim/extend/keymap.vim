@@ -19,6 +19,7 @@ nnoremap <silent> v :Bclose<CR>
 
 " -------- QuickRun(default) --------
 nmap ,r :QuickRun<CR>
+nmap ,a :QuickRun -args 
 
 " --------- neosnippet ---------
 imap <C-k>	<Plug>(neosnippet_expand_or_jump)
