@@ -36,6 +36,7 @@ alias awk='gawk'
 # alias cat='cat -n'
 alias less='less -NM'
 alias i='git status'
+alias lg='lazygit'
 
 # zplug
 export ZPLUG_HOME=$ZDOTDIR/.zplug
