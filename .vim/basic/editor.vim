@@ -15,6 +15,8 @@ set tabstop=2
 set shiftwidth=2
 
 set hlsearch
+set ignorecase
+set smartcase
 
 set scrolloff=4
 

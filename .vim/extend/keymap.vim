@@ -56,7 +56,7 @@ augroup vimrc_vaffle
 	au FileType vaffle vmap <buffer> <Space> <Plug>(vaffle-toggle-current)
 
 	au FileType vaffle nmap <buffer> <CR> <Plug>(vaffle-open-selected)
-	au FileType vaffle nmap <buffer> m <Plug>(vaffle-move-selected)
+	au FileType vaffle nmap <buffer> e <Plug>(vaffle-move-selected)
 	au FileType vaffle nmap <buffer> d <Plug>(vaffle-delete-selected)
 	au FileType vaffle nmap <buffer> r <Plug>(vaffle-rename-selected)
 	au FileType vaffle nmap <buffer> q <Plug>(vaffle-quit)
