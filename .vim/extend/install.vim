@@ -8,6 +8,9 @@ Plug 'nightsense/snow'
 " tagbar
 Plug 'majutsushi/tagbar'
 
+" filer
+Plug 'cocopon/vaffle.vim'
+
 " 多重起動防止
 if has('clientserver')
 	Plug 'thinca/vim-singleton'
