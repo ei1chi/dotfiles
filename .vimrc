@@ -1,4 +1,5 @@
 set runtimepath+=$HOME
-runtime! .vim/plug.vim
-runtime! .vim/plugins.vim
-runtime! .vim/userautoload/*.vim
+if v:version >= 800
+	runtime! .vim/extend/**/*.vim
+endif
+runtime! .vim/basic/**/*.vim
