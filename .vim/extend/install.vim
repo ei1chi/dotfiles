@@ -22,12 +22,6 @@ Plug 'fuenor/im_control.vim'
 " 汎用セレクタ
 Plug 'ctrlpvim/ctrlp.vim'
 
-" 補完
-" Plug 'Valloric/YouCompleteMe'
-
-" 括弧オペレータ
-" Plug 'machakann/vim-sandwich'
-
 " スムーズスクロール
 Plug 'yuttie/comfortable-motion.vim'
 
@@ -38,6 +32,8 @@ Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'leafgarland/typescript-vim'
 Plug 'Quramy/tsuquyomi'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+
+" Async linter
 Plug 'w0rp/ale'
 
 " easymotion

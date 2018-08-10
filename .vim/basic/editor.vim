@@ -5,15 +5,8 @@ set fileencodings=utf-8,cp932,euc-jp
 set nobackup
 set noswapfile
 
-set undodir=~/.cache/vim/undo
-set undofile
-
-set viminfo+=n~/.cache/vim/viminfo.txt
-
 set autoread
 set autowrite
-
-" set incsearch
 
 set showcmd
 set showmatch
@@ -26,8 +19,6 @@ set hlsearch
 set scrolloff=4
 
 set backspace=eol,indent,start
-
-" set autochdir
 
 set updatetime=100
 
