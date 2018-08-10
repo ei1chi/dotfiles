@@ -3,7 +3,7 @@ map H <Plug>(easymotion-j)
 map f <Plug>(easymotion-overwin-f2)
 map r <Plug>(easymotion-bd-fl)
 
-" jump and search in line
+" jump and select in line
 map k e<Plug>(easymotion-bd-fl)
 
 map y <Plug>(operator-stay-cursor-yank)
@@ -12,7 +12,7 @@ map y <Plug>(operator-stay-cursor-yank)
 inoremap <silent> <C-j> <C-^><C-r>=IMState('FixMode')<CR>
 
 " tagbar
-nmap <Space> :TagbarToggle<CR>
+" nmap <Space> :TagbarToggle<CR>
 
 " close buffer without collapse window layout
 nnoremap <silent> v :Bclose<CR>
@@ -44,25 +44,25 @@ nnoremap gf :<C-u>CtrlP<CR>
 nmap jj :JunkfileOpen 
 
 " --------- Vaffle ---------
-nmap <Bslash> :<C-u>Vaffle<CR>
+nmap <Space> :<C-u>Vaffle<CR>
 augroup vimrc_vaffle
 	autocmd!
 	au! FileType vaffle nmap <buffer> & <Plug>(vaffle-open-home)
-	au! FileType vaffle nmap <buffer> s <Plug>(vaffle-open-parent)
-	au! FileType vaffle nmap <buffer> t <Plug>(vaffle-open-current)
-	au! FileType vaffle nmap <buffer> a <Plug>(vaffle-toggle-all)
-	au! FileType vaffle nmap <buffer> <Space> <Plug>(vaffle-toggle-current)
-	au! FileType vaffle vmap <buffer> <Space> <Plug>(vaffle-toggle-current)
+	au FileType vaffle nmap <buffer> s <Plug>(vaffle-open-parent)
+	au FileType vaffle nmap <buffer> t <Plug>(vaffle-open-current)
+	au FileType vaffle nmap <buffer> a <Plug>(vaffle-toggle-all)
+	au FileType vaffle nmap <buffer> <Space> <Plug>(vaffle-toggle-current)
+	au FileType vaffle vmap <buffer> <Space> <Plug>(vaffle-toggle-current)
 
-	au! FileType vaffle nmap <buffer> <CR> <Plug>(vaffle-open-selected)
-	au! FileType vaffle nmap <buffer> m <Plug>(vaffle-move-selected)
-	au! FileType vaffle nmap <buffer> d <Plug>(vaffle-delete-selected)
-	au! FileType vaffle nmap <buffer> r <Plug>(vaffle-rename-selected)
-	au! FileType vaffle nmap <buffer> q <Plug>(vaffle-quit)
-	au! FileType vaffle nmap <buffer> o <Plug>(vaffle-mkdir)
-	au! FileType vaffle nmap <buffer> i <Plug>(vaffle-new-file)
-	au! FileType vaffle nmap <buffer> R <Plug>(vaffle-refresh)
-	au! FileType vaffle nmap <buffer> x <Plug>(vaffle-fill-cmdline)
+	au FileType vaffle nmap <buffer> <CR> <Plug>(vaffle-open-selected)
+	au FileType vaffle nmap <buffer> m <Plug>(vaffle-move-selected)
+	au FileType vaffle nmap <buffer> d <Plug>(vaffle-delete-selected)
+	au FileType vaffle nmap <buffer> r <Plug>(vaffle-rename-selected)
+	au FileType vaffle nmap <buffer> q <Plug>(vaffle-quit)
+	au FileType vaffle nmap <buffer> o <Plug>(vaffle-mkdir)
+	au FileType vaffle nmap <buffer> i <Plug>(vaffle-new-file)
+	au FileType vaffle nmap <buffer> R <Plug>(vaffle-refresh)
+	au FileType vaffle nmap <buffer> x <Plug>(vaffle-fill-cmdline)
 augroup END
 
 " ========= FILETYPE SPECIFIC KEYMAPPINGS =========
