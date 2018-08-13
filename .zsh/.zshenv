@@ -12,3 +12,4 @@ fi
 
 # environment variables
 export PATH=$PATH:~/go/bin
+export EDITOR=vi
