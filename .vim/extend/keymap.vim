@@ -17,6 +17,9 @@ inoremap <silent> <C-j> <C-^><C-r>=IMState('FixMode')<CR>
 " close buffer without collapse window layout
 nnoremap <silent> v :Bclose<CR>
 
+" -------- grep --------
+nmap ,s :<C-u>Ptgrep<CR>
+
 " -------- QuickRun(default) --------
 nmap ,r :QuickRun<CR>
 nmap ,a :QuickRun -args 

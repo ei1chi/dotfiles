@@ -24,8 +24,8 @@ nmap <Esc><Esc> :nohlsearch<CR>
 
 nnoremap <C-h> :cnext<CR>
 nnoremap <C-l> :cprevious<CR>
-nnoremap <C-c> :cclose<CR>
-nnoremap <C-s> <C-o>
+nnoremap <C-w> :cclose<CR>
+" nnoremap <C-s> <C-o>
 nnoremap <C-t> <C-i>
 nnoremap <C-g> zt
 

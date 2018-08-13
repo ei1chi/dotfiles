@@ -22,6 +22,9 @@ Plug 'tyru/restart.vim'
 " 日本語入力固定
 Plug 'fuenor/im_control.vim'
 
+" easy grep
+Plug 'yegappan/grep'
+
 " 汎用セレクタ
 Plug 'ctrlpvim/ctrlp.vim'
 
