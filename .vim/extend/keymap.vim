@@ -44,7 +44,7 @@ nnoremap <silent> gic		:Gina commit<CR>
 nnoremap ga :<C-u>CtrlPMixed<CR>
 nnoremap gb :<C-u>CtrlPBuffer<CR>
 nnoremap gl :<C-u>CtrlPMRUFiles<CR>
-nnoremap gf :<C-u>CtrlP<CR>
+nnoremap gr :<C-u>CtrlP<CR>
 
 " --------- junkfile ---------
 nmap jj :JunkfileOpen 

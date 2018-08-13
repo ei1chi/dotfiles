@@ -16,6 +16,9 @@ if has('clientserver')
 	Plug 'thinca/vim-singleton'
 endif
 
+" プロジェクトローカルvimrc
+Plug 'thinca/vim-localrc'
+
 " 即時再起動
 Plug 'tyru/restart.vim'
 
