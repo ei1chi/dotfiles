@@ -11,6 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+stty stop undef
 autoload -Uz compinit
 compinit
 zstyle ':completion:*' menu select
