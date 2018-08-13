@@ -12,4 +12,6 @@ fi
 
 # environment variables
 export PATH=$PATH:~/go/bin
-export EDITOR=vi
+export EDITOR='vim'
+export VISUAL='vim'
+export PAGER='less'
