@@ -25,5 +25,3 @@ set backspace=eol,indent,start
 set updatetime=100
 
 autocmd FileType * setlocal formatoptions-=ro
-
-colorscheme iceberg
