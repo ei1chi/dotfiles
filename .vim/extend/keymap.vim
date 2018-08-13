@@ -32,9 +32,8 @@ imap <expr><TAB>
 			\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
 
 " -------- emmet ( replace snippet key ) --------
-let g:user_emmet_leader_key='<C-s>'
 au FileType html,css EmmetInstall
-au FileType html,css imap <Tab> <C-s>,
+au FileType html,css imap <Tab> <C-y>,
 
 " --------- gina.vim ---------
 nnoremap <silent> gis		:Gina status<CR>
