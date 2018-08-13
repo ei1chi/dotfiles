@@ -71,18 +71,16 @@ augroup END
 
 " ========= FILETYPE SPECIFIC KEYMAPPINGS =========
 " golang
-augroup filetypedetect
-	" --------- vim-go ---------
-	au! FileType go nmap ,r <Plug>(go-run)
-	au! FileType go nmap ,b <Plug>(go-build)
-	au! FileType go nmap ,h <Plug>(go-doc)
-	au! FileType go nmap ,H :GoDescribe<CR>
-	au! FileType go nmap ,t <Plug>(go-test)
-	au! FileType go nmap ,d :GoDecls<CR>
-	au! FileType go nmap ,D :GoDeclsDir<CR>
-	au! FileType go nmap gd <Plug>(go-def)
-	au! FileType go nmap gD <Plug>(go-def-pop)
-augroup END
+" --------- vim-go ---------
+au FileType go nmap ,r <Plug>(go-run)
+au FileType go nmap ,b <Plug>(go-build)
+au FileType go nmap ,h <Plug>(go-doc)
+au FileType go nmap ,H :GoDescribe<CR>
+au FileType go nmap ,t <Plug>(go-test)
+au FileType go nmap ,d :GoDecls<CR>
+au FileType go nmap ,D :GoDeclsDir<CR>
+au FileType go nmap gd <Plug>(go-def)
+au FileType go nmap gD <Plug>(go-def-pop)
 
 " typescript
 augroup filetypedetect
