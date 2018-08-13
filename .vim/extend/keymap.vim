@@ -2,6 +2,8 @@ map L <Plug>(easymotion-k)
 map H <Plug>(easymotion-j)
 map f <Plug>(easymotion-overwin-f2)
 map r <Plug>(easymotion-bd-fl)
+nmap w <Plug>(easymotion-bd-wl)
+vmap w <Plug>(easymotion-bd-wl)
 
 " jump and select in line
 map k e<Plug>(easymotion-bd-fl)
