@@ -1,12 +1,11 @@
+" basic motions by easymotion
 map L <Plug>(easymotion-k)
 map H <Plug>(easymotion-j)
 map f <Plug>(easymotion-overwin-f2)
 map r <Plug>(easymotion-bd-fl)
+map k e<Plug>(easymotion-bd-fl)
 nmap w <Plug>(easymotion-bd-wl)
 vmap w <Plug>(easymotion-bd-wl)
-
-" jump and select in line
-map k e<Plug>(easymotion-bd-fl)
 
 map y <Plug>(operator-stay-cursor-yank)
 
@@ -14,7 +13,7 @@ map y <Plug>(operator-stay-cursor-yank)
 inoremap <silent> <C-j> <C-^><C-r>=IMState('FixMode')<CR>
 
 " tagbar
-" nmap <Space> :TagbarToggle<CR>
+nmap <C-k> :TagbarToggle<CR>
 
 " close buffer without collapse window layout
 nnoremap <silent> v :Bclose<CR>
@@ -27,14 +26,15 @@ nmap ,r :QuickRun<CR>
 nmap ,a :QuickRun -args 
 
 " --------- neosnippet ---------
-imap <C-k>	<Plug>(neosnippet_expand_or_jump)
-smap <C-k>	<Plug>(neosnippet_expand_or_jump)
-smap <C-k>	<Plug>(neosnippet_expand_target)
-
 imap <expr><TAB>
 			\ pumvisible() ? "\<C-n>" :
 			\ neosnippet#expandable_or_jumpable() ?
 			\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+
+" -------- emmet ( replace snippet key ) --------
+let g:user_emmet_leader_key='<C-s>'
+au FileType html,css EmmetInstall
+au FileType html,css imap <Tab> <C-s>,
 
 " --------- gina.vim ---------
 nnoremap <silent> gis		:Gina status<CR>
