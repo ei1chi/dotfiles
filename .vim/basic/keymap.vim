@@ -20,7 +20,7 @@ map Y y$
 map { [[zt
 map } ]]zt
 
-nmap <Esc><Esc> :nohlsearch<CR>
+nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
 nnoremap <C-h> :cnext<CR>
 nnoremap <C-l> :cprevious<CR>

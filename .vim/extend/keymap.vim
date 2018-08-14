@@ -39,6 +39,9 @@ au FileType html,css imap <Tab> <C-y>,
 nnoremap <silent> gis		:Gina status<CR>
 nnoremap <silent> gic		:Gina commit<CR>
 
+" --------- fuzzy finder ---------
+nmap <Space> :<C-u>GFiles<CR>
+
 " --------- ctrlp ---------
 nnoremap ga :<C-u>CtrlPMixed<CR>
 nnoremap gb :<C-u>CtrlPBuffer<CR>
@@ -49,7 +52,7 @@ nnoremap gr :<C-u>CtrlP<CR>
 nmap jj :JunkfileOpen 
 
 " --------- Vaffle ---------
-nmap <Space> :<C-u>Vaffle<CR>
+nmap gp :<C-u>Vaffle<CR>
 augroup vimrc_vaffle
 	autocmd!
 	au! FileType vaffle nmap <buffer> & <Plug>(vaffle-open-home)

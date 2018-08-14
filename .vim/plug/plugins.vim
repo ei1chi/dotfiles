@@ -5,6 +5,10 @@ Plug 'cocopon/iceberg.vim'
 Plug 'KKPMW/moonshine-vim'
 Plug 'nightsense/snow'
 
+" fuzzy finder
+Plug 'junegunn/fzf', { 'dir': '~/.fzf' }
+Plug 'junegunn/fzf.vim'
+
 " tagbar
 Plug 'majutsushi/tagbar'
 
