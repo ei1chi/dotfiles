@@ -6,6 +6,9 @@ noremap t l
 noremap S ^
 noremap T $
 
+noremap <BS> "_X
+noremap x "_s
+
 noremap & ~
 
 noremap b N
