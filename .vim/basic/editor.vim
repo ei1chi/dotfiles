@@ -10,6 +10,7 @@ set autowrite
 
 set showcmd
 set showmatch
+set matchtime=1
 
 set tabstop=2
 set shiftwidth=2
