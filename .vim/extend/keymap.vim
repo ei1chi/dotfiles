@@ -31,9 +31,10 @@ imap <expr><TAB>
 			\ neosnippet#expandable_or_jumpable() ?
 			\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
 
-" -------- emmet ( replace snippet key ) --------
+" -------- emmet --------
 au FileType html,css EmmetInstall
-au FileType html,css imap <Tab> <C-y>,
+au FileType html,css imap <S-Tab> <C-y>,<CR><CR><Up>
+au FileType html,css imap <C-i> <C-y>,
 
 " --------- gina.vim ---------
 nnoremap <silent> gis		:Gina status<CR>
