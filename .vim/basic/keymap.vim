@@ -9,6 +9,8 @@ noremap T $
 noremap <BS> "_X
 noremap x "_s
 
+inoremap <C-CR> <CR><CR><Up>
+
 noremap & ~
 
 noremap b N
