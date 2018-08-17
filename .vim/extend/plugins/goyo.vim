@@ -3,12 +3,10 @@ function! s:goyo_enter()
 	set cursorline
 	set scrolloff=999
 	set background=light
-	if has("gui")
-		colorscheme stellarized
-	else
+	if !has("gui")
 		let g:solarized_termcolors=256
-		colorscheme solarized
 	endif
+	colorscheme solarized
 endfunction
 
 function! s:goyo_leave()
