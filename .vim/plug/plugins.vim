@@ -82,7 +82,7 @@ Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'mattn/emmet-vim'
 
 " Markdown
-Plug 'plasticboy/vim-markdown'
+" Plug 'plasticboy/vim-markdown'
 Plug 'shime/vim-livedown'
 
 " ------------------------------------------------------------
@@ -106,7 +106,7 @@ Plug 'tyru/restart.vim'
 Plug 'fuenor/im_control.vim'
 
 " ------------------------------------------------------------
-"  その他
+"  小回り
 " ------------------------------------------------------------
 " 使い捨てファイル
 Plug 'Shougo/junkfile.vim'

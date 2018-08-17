@@ -15,7 +15,7 @@ endfunction
 function Ricty()
 	set background=dark
 	colorscheme iceberg
-	set guifont=Ricty\ Diminished\ Regular\ for\ Powerline:h11
+	set guifont=Ricty\ Diminished\ for\ Powerline:h11
 endfunction
 
 " default
