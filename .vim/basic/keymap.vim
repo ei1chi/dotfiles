@@ -6,7 +6,7 @@ noremap t l
 noremap S ^
 noremap T $
 
-noremap <BS> "_X
+noremap <BS> "_xh
 noremap x "_s
 
 noremap & ~
@@ -26,10 +26,6 @@ nnoremap - <C-x>
 map { [[zt
 map } ]]zt
 
-nnoremap Q :q<CR>
-
-nmap <Esc><Esc> :nohlsearch<CR><Esc>
-
 " folding
 nnoremap [ zO
 nnoremap ] zC
@@ -48,3 +44,7 @@ nnoremap <Up> <C-w>k
 nnoremap <Right> <C-w>l
 
 nnoremap \|  :vs<CR>
+
+nnoremap Q :q<CR>
+
+nmap <Esc><Esc> :nohlsearch<CR><Esc>
