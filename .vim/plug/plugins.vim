@@ -82,6 +82,9 @@ Plug 'mattn/emmet-vim'
 " ------------------------------------------------------------
 "  Vim 本体環境
 " ------------------------------------------------------------
+" 自動保存
+Plug 'vim-scripts/vim-auto-save'
+
 " 多重起動防止
 if has('clientserver')
 	Plug 'thinca/vim-singleton'
