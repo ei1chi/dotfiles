@@ -15,14 +15,16 @@ endfunction
 function Ricty()
 	set background=dark
 	colorscheme iceberg
-	set guifont=Ricty\ Diminished\ for\ Powerline:h11
+	set guifont=Ricty\ Diminished\ Regular\ for\ Powerline:h11
 endfunction
 
 " default
 call Ricty()
 
-au GUIEnter * set transparency=220
-au GUIEnter * simalt ~x
+if !has("mac")
+	au GUIEnter * set transparency=220
+	au GUIEnter * simalt ~x
+endif
 
 set guioptions-=T
 set guioptions-=m

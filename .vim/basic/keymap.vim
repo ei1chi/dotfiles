@@ -1,6 +1,6 @@
 noremap s h
-noremap h j
-noremap l k
+noremap h gj
+noremap l gk
 noremap t l
 
 noremap S ^
@@ -8,8 +8,6 @@ noremap T $
 
 noremap <BS> "_X
 noremap x "_s
-
-inoremap <C-CR> <CR><CR><Up>
 
 noremap & ~
 
