@@ -7,6 +7,7 @@ set noswapfile
 
 set autoread
 set autowrite
+set autochdir
 
 set showcmd
 set showmatch
