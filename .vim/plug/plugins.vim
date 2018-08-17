@@ -83,6 +83,7 @@ Plug 'mattn/emmet-vim'
 
 " Markdown
 Plug 'plasticboy/vim-markdown'
+Plug 'shime/vim-livedown'
 
 " ------------------------------------------------------------
 "  Vim 本体環境
