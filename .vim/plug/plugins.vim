@@ -6,11 +6,17 @@ call plug#begin('~/.vim/plugins')
 Plug 'cocopon/iceberg.vim'
 Plug 'KKPMW/moonshine-vim'
 Plug 'nightsense/snow'
+Plug 'nightsense/stellarized'
+Plug 'kadekillary/subtle_solo'
+Plug 'yuttie/inkstained-vim'
 
 " ------------------------------------------------------------
 "  画面操作
 " ------------------------------------------------------------
 Plug 'rbgrouleff/bclose.vim'
+
+" Write Room Mode
+Plug 'junegunn/goyo.vim'
 
 " ------------------------------------------------------------
 "  オペレータ、テキスト操作
@@ -25,7 +31,6 @@ Plug 'osyo-manga/vim-operator-stay-cursor'
 " コメントアウト
 Plug 'tyru/caw.vim'
 
-" スニペット
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
 
@@ -36,7 +41,6 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf' }
 Plug 'junegunn/fzf.vim'
 
 Plug 'majutsushi/tagbar'
-" tagbar help for js
 Plug 'hushicai/tagbar-javascript.vim'
 
 Plug 'cocopon/vaffle.vim'
@@ -56,8 +60,6 @@ Plug 'w0rp/ale'
 
 " Git統合
 Plug 'tpope/vim-fugitive'
-
-" Git統合その２
 Plug 'lambdalisue/gina.vim'
 
 " ------------------------------------------------------------
