@@ -78,8 +78,11 @@ Plug 'leafgarland/typescript-vim'
 Plug 'Quramy/tsuquyomi'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 
-" emmet
+" Emmet
 Plug 'mattn/emmet-vim'
+
+" Markdown
+Plug 'plasticboy/vim-markdown'
 
 " ------------------------------------------------------------
 "  Vim 本体環境
