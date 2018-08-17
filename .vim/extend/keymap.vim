@@ -36,7 +36,18 @@ nnoremap <silent> gis		:Gina status<CR>
 nnoremap <silent> gic		:Gina commit<CR>
 
 " --------- fuzzy finder ---------
-nmap <Space> :<C-u>GFiles<CR>
+function! s:find_git_root()
+	return system('git rev-parse --show-toplevel 2> /dev/null')[:-2]
+endfunction
+
+command! -bang -nargs=* Pt
+			\ call fzf#vim#grep(
+			\		'pt --column --ignore=.git --global-gitignore'.shellescape(<q-args>), 1,
+			\		fzf#vim#with_preview({ 'dir': s:find_git_root() }),
+			\		<bang>0)
+
+nmap <Space><Space> :<C-u>GFiles<CR>
+nmap <Space>s :Pt 
 
 " --------- ctrlp ---------
 nnoremap ga :<C-u>CtrlPMixed<CR>
