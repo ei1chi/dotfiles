@@ -9,6 +9,7 @@ Plug 'nightsense/snow'
 Plug 'nightsense/stellarized'
 Plug 'kadekillary/subtle_solo'
 Plug 'yuttie/inkstained-vim'
+Plug 'altercation/vim-colors-solarized'
 
 " ------------------------------------------------------------
 "  画面操作
@@ -40,14 +41,7 @@ Plug 'Shougo/neosnippet-snippets'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf' }
 Plug 'junegunn/fzf.vim'
 
-Plug 'majutsushi/tagbar'
-Plug 'hushicai/tagbar-javascript.vim'
-
 Plug 'cocopon/vaffle.vim'
-
-Plug 'ctrlpvim/ctrlp.vim'
-
-Plug 'yegappan/grep'
 
 " ------------------------------------------------------------
 "  パッシブ拡張
@@ -55,12 +49,20 @@ Plug 'yegappan/grep'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+" ------------------------------------------------------------
+"  統合ツール
+" ------------------------------------------------------------
 " Async linter
 Plug 'w0rp/ale'
 
-" Git統合
+" Git
 Plug 'tpope/vim-fugitive'
 Plug 'lambdalisue/gina.vim'
+Plug 'gregsexton/gitv'
+
+" ctags
+Plug 'majutsushi/tagbar'
+Plug 'hushicai/tagbar-javascript.vim'
 
 " ------------------------------------------------------------
 "  言語

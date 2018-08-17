@@ -20,6 +20,9 @@ nnoremap <C-e> <C-v>
 
 map Y y$
 
+nnoremap + <C-a>
+nnoremap - <C-x>
+
 map { [[zt
 map } ]]zt
 
@@ -27,12 +30,16 @@ nnoremap Q :q<CR>
 
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
+" folding
+nnoremap [ zO
+nnoremap ] zC
+
 nnoremap <C-h> :cnext<CR>
 nnoremap <C-l> :cprevious<CR>
 nnoremap <C-w> :cclose<CR>
 nnoremap <C-s> <C-o>
 nnoremap <C-t> <C-i>
-nnoremap <C-g> zt
+nnoremap <C-g> zz
 
 " navigate windows
 nnoremap <Left> <C-w>h
