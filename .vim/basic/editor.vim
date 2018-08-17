@@ -20,10 +20,8 @@ set hlsearch
 set ignorecase
 set smartcase
 
-set scrolloff=4
+set scrolloff=10
 
 set backspace=eol,indent,start
 
-set updatetime=100
-
-autocmd FileType * setlocal formatoptions-=ro
+set updatetime=300

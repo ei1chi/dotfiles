@@ -36,7 +36,9 @@ alias mv='mv -i'
 alias awk='gawk'
 # alias cat='cat -n'
 alias less='less -NM'
+
 alias i='git status'
+alias e='vim'
 alias lg='lazygit'
 
 # zplug

@@ -23,6 +23,8 @@ map Y y$
 map { [[zt
 map } ]]zt
 
+nnoremap Q :q<CR>
+
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
 nnoremap <C-h> :cnext<CR>

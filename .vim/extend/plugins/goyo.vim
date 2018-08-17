@@ -8,7 +8,7 @@ endfunction
 
 function! s:goyo_leave()
 	set nocursorline
-	set scrolloff=4
+	set scrolloff=10
 	colorscheme iceberg
 	set background=dark
 endfunction

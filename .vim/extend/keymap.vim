@@ -42,18 +42,15 @@ endfunction
 
 command! -bang -nargs=* Pt
 			\ call fzf#vim#grep(
-			\		'pt --column --ignore=.git --global-gitignore'.shellescape(<q-args>), 1,
+			\		'pt --nogroup --column --hidden '.shellescape(<q-args>), 1,
 			\		fzf#vim#with_preview({ 'dir': s:find_git_root() }),
 			\		<bang>0)
 
 nmap <Space><Space> :<C-u>GFiles<CR>
+nmap <Space>f :<C-u>Files<CR>
 nmap <Space>s :Pt 
-
-" --------- ctrlp ---------
-nnoremap ga :<C-u>CtrlPMixed<CR>
-nnoremap gb :<C-u>CtrlPBuffer<CR>
-nnoremap gl :<C-u>CtrlPMRUFiles<CR>
-nnoremap gr :<C-u>CtrlP<CR>
+nmap <Space>h :<C-u>History<CR>
+nmap <Space>b :<C-u>Buffers<CR>
 
 " --------- junkfile ---------
 nmap jj :JunkfileOpen 
