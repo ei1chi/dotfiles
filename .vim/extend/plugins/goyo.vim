@@ -1,5 +1,5 @@
 function! s:goyo_enter()
-	Goyo 100x120
+	Goyo 120x85%
 	set cursorline
 	set scrolloff=999
 	set background=light
