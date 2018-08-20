@@ -18,6 +18,7 @@ zstyle ':completion:*' menu select
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 setopt list_packed
 zstyle ':completion:*' list-colors ''
+setopt auto_pushd
 
 # command history
 setopt hist_ignore_dups

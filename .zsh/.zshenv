@@ -15,3 +15,4 @@ export PATH=$PATH:~/go/bin
 export EDITOR='vim'
 export VISUAL='vim'
 export PAGER='less'
+export GHQ_ROOT=~/ghq

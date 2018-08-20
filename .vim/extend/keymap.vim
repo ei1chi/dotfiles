@@ -52,11 +52,17 @@ nnoremap <Space>b :<C-u>Buffers<CR>
 nnoremap jj :JunkfileOpen 
 
 " Git operations
-nnoremap gl :<C-u>Gitv<CR>
+nnoremap gs :<C-u>Gstatus<CR>
+nnoremap gc :<C-u>Gcommit<CR>
+nnoremap gr :<C-u>Gread<CR>
+noremap gl :<C-u>GV<CR>
+noremap gL :<C-u>GV!<CR>
+noremap gh :<C-u>GV?<CR>
 
 " Vaffle
 augroup vimrc_vaffle
 	autocmd!
+	au FileType vaffle nnoremap . /
 	au FileType vaffle nmap <buffer> ~ <Plug>(vaffle-open-home)
 	au FileType vaffle nmap <buffer> s <Plug>(vaffle-open-parent)
 	au FileType vaffle nmap <buffer> t <Plug>(vaffle-open-current)

@@ -58,7 +58,7 @@ Plug 'w0rp/ale'
 " Git
 Plug 'tpope/vim-fugitive'
 Plug 'lambdalisue/gina.vim'
-Plug 'gregsexton/gitv'
+Plug 'cohama/agit.vim'
 
 " ctags
 Plug 'majutsushi/tagbar'
