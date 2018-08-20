@@ -45,6 +45,7 @@ nnoremap <Right> <C-w>l
 
 nnoremap \|  :vs<CR>
 
+nnoremap j :w<CR>
 nnoremap Q :q<CR>
 
 nmap <Esc><Esc> :nohlsearch<CR><Esc>

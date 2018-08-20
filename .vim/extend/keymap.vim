@@ -49,7 +49,7 @@ nnoremap <Space>h :<C-u>History<CR>
 nnoremap <Space>b :<C-u>Buffers<CR>
 
 " JunkFile
-nnoremap jj :JunkfileOpen 
+nnoremap Jj :JunkfileOpen 
 
 " Git operations
 nnoremap gs :<C-u>Gstatus<CR>
@@ -62,7 +62,7 @@ noremap gh :<C-u>GV?<CR>
 " Vaffle
 augroup vimrc_vaffle
 	autocmd!
-	au FileType vaffle nnoremap . /
+	au FileType vaffle nnoremap <buffer> . /
 	au FileType vaffle nmap <buffer> ~ <Plug>(vaffle-open-home)
 	au FileType vaffle nmap <buffer> s <Plug>(vaffle-open-parent)
 	au FileType vaffle nmap <buffer> t <Plug>(vaffle-open-current)

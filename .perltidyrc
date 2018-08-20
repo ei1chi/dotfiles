@@ -5,12 +5,14 @@
 -se		# Errors to STDERR
 -vt=2	# Maximal vertical tightness
 -cti=0	# No extra indentation for closing brackets
--pt=1	# Medium parentheses tightness
--bt=1	# Medium brace tightness
--sbt=1	# Medium square brace tightness
--bbt=1	# Medium block brace tightness
+-pt=2	# Medium parentheses tightness
+-bt=2	# Medium brace tightness
+-sbt=2	# Medium square brace tightness
+-bbt=2	# Medium block brace tightness
 -nsfs		# No space before semicolons
 -nolq		# Don't outdent long quoted strings
+-otr	# Don't place a break between a comma and an opening token
 -fnl	# Don't change to the line breaks
+-nbbc	# Don't place blanks before comments
 -wbb="% - * / != == >= <= =~ < > | & >= < **= += *= &= <<= &&= -= /= |= >>= ||= .= %= ^="
 				# Break befor all operators
