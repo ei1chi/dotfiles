@@ -55,9 +55,8 @@ nnoremap Jj :JunkfileOpen
 nnoremap gs :<C-u>Gstatus<CR>
 nnoremap gc :<C-u>Gcommit<CR>
 nnoremap gr :<C-u>Gread<CR>
-noremap gl :<C-u>GV<CR>
-noremap gL :<C-u>GV!<CR>
-noremap gh :<C-u>GV?<CR>
+noremap gl :<C-u>Agit<CR>
+noremap gh :<C-u>AgitFile<CR>
 
 " Vaffle
 augroup vimrc_vaffle
