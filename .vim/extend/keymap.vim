@@ -11,8 +11,10 @@ map y <Plug>(operator-stay-cursor-yank)
 
 " Sandwich operations
 map ;a <Plug>(operator-sandwich-add)
-map ;d <Plug>(operator-sandwich-delete)
-map ;c <Plug>(operator-sandwich-replace)
+map ;d <Plug>(operator-sandwich-delete)<Plug>(textobj-sandwich-query-a)
+map ;e <Plug>(operator-sandwich-delete)<Plug>(textobj-sandwich-auto-a)
+map ;c <Plug>(operator-sandwich-replace)<Plug>(textobj-sandwich-query-a)
+map ;r <Plug>(operator-sandwich-replace)<Plug>(textobj-sandwich-auto-a)
 
 " Control IME
 inoremap <silent> <C-j> <C-^><C-r>=IMState('FixMode')<CR>
