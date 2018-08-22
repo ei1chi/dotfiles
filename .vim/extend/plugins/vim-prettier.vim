@@ -1,2 +1,5 @@
 let g:prettier#autoformat = 0
-autocmd BufWritePre *.js,*.jsx,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.md Prettier
+augroup prettier
+	au!
+	autocmd BufWritePre *.js,*.jsx,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.md PrettierAsync
+augroup END
