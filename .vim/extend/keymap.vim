@@ -9,6 +9,11 @@ vmap w <Plug>(easymotion-bd-wl)
 
 map y <Plug>(operator-stay-cursor-yank)
 
+" Sandwich operations
+map ;a <Plug>(operator-sandwich-add)
+map ;d <Plug>(operator-sandwich-delete)
+map ;c <Plug>(operator-sandwich-replace)
+
 " Control IME
 inoremap <silent> <C-j> <C-^><C-r>=IMState('FixMode')<CR>
 

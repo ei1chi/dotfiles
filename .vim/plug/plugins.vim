@@ -29,6 +29,10 @@ Plug 'easymotion/vim-easymotion'
 Plug 'kana/vim-operator-user'
 Plug 'osyo-manga/vim-operator-stay-cursor'
 
+let g:operator_sandwich_no_default_key_mappings = 1
+let g:sandwich_no_default_key_mappings = 1
+Plug 'machakann/vim-sandwich'
+
 " コメントアウト
 Plug 'tyru/caw.vim'
 
