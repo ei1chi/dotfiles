@@ -84,9 +84,11 @@ augroup END
 "  FileTypeごとの設定
 " ============================================================
 " emmet
-au FileType html,css EmmetInstall
-au FileType html,css imap <S-Tab> <C-y>,<CR><CR><Up>
-au FileType html,css imap <C-i> <C-y>,
+augroup emmet
+	au!
+	au FileType html,css imap <S-Tab> <C-y>,<CR><CR><Up>
+	au FileType html,css imap <C-f> <C-y>,
+augroup END
 
 " golang
 augroup go
