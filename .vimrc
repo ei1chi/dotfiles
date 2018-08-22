@@ -5,3 +5,6 @@ if v:version >= 800
 	runtime! .vim/plug/*.vim
 	runtime! .vim/extend/**/*.vim
 endif
+if has('win32')
+	set runtimepath+=$HOME/.vim/after
+endif
