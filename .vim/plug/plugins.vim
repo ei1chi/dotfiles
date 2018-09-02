@@ -77,6 +77,15 @@ Plug 'thinca/vim-quickrun'
 " Go
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 
+" Javascript
+Plug 'maksimr/vim-jsbeautify'
+
+" ES2015
+Plug 'othree/yajs.vim'
+
+" JSX
+Plug 'MaxMEllon/vim-jsx-pretty'
+
 " TypeScirpt
 Plug 'leafgarland/typescript-vim'
 Plug 'Quramy/tsuquyomi'
