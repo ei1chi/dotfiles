@@ -84,7 +84,7 @@ Plug 'maksimr/vim-jsbeautify'
 Plug 'othree/yajs.vim'
 
 " JSX
-Plug 'MaxMEllon/vim-jsx-pretty'
+" Plug 'MaxMEllon/vim-jsx-pretty'
 
 " TypeScirpt
 Plug 'leafgarland/typescript-vim'
