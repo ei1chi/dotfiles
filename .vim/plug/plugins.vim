@@ -77,19 +77,14 @@ Plug 'thinca/vim-quickrun'
 " Go
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 
-" Javascript
+" Javascript 系
 Plug 'maksimr/vim-jsbeautify'
-
-" ES2015
 Plug 'othree/yajs.vim'
 
-" JSX
-" Plug 'MaxMEllon/vim-jsx-pretty'
-
-" TypeScirpt
 Plug 'leafgarland/typescript-vim'
 Plug 'Quramy/tsuquyomi'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+Plug 'Chiel92/vim-autoformat'
 
 " Emmet
 Plug 'mattn/emmet-vim'
@@ -97,6 +92,9 @@ Plug 'mattn/emmet-vim'
 " Markdown
 " Plug 'plasticboy/vim-markdown'
 Plug 'shime/vim-livedown'
+
+" YAML
+Plug 'stephpy/vim-yaml'
 
 " ------------------------------------------------------------
 "  Vim 本体環境

@@ -116,6 +116,7 @@ augroup END
 augroup typescript
 	au!
 	au FileType typescript nmap ,f <Plug>(TsuquyomiReferences)
+	au FileType typescript nmap ,q :<C-u>TsuquyomiGeterr<CR>
 	au FileType typescript nmap gd <Plug>(TsuquyomiDefinition)
 	au FileType typescript nmap gD <Plug>(TsuquyomiGoBack)
 augroup END

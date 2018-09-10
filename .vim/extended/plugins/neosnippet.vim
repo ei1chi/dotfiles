@@ -1,1 +1,1 @@
-let g:neosnippet#snippets_directory='~/.vim/extend/snippets/'
+let g:neosnippet#snippets_directory='~/.vim/extended/snippets/'
