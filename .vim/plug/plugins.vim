@@ -25,6 +25,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'yuttie/comfortable-motion.vim'
 
 Plug 'easymotion/vim-easymotion'
+Plug 'haya14busa/vim-edgemotion'
 
 Plug 'kana/vim-operator-user'
 Plug 'osyo-manga/vim-operator-stay-cursor'
@@ -90,7 +91,6 @@ Plug 'Chiel92/vim-autoformat'
 Plug 'mattn/emmet-vim'
 
 " Markdown
-" Plug 'plasticboy/vim-markdown'
 Plug 'shime/vim-livedown'
 
 " YAML

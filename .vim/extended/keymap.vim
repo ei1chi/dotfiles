@@ -1,6 +1,6 @@
 " Basic motions by easymotion
-map L <Plug>(easymotion-k)
-map H <Plug>(easymotion-j)
+map L <Plug>(edgemotion-k)
+map H <Plug>(edgemotion-j)
 map f <Plug>(easymotion-overwin-f2)
 map r <Plug>(easymotion-bd-fl)
 map k e<Plug>(easymotion-bd-fl)
