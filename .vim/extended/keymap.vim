@@ -56,7 +56,7 @@ nnoremap <Space>h :<C-u>History<CR>
 nnoremap <Space>b :<C-u>Buffers<CR>
 
 " JunkFile
-nnoremap Jj :JunkfileOpen 
+nnoremap ,j :JunkfileOpen 
 
 " Git operations
 nnoremap gs :<C-u>Gstatus<CR>
@@ -93,8 +93,8 @@ augroup END
 " emmet
 augroup emmet
 	au!
-	au FileType html,css imap <S-Tab> <C-y>,<CR><CR><Up>
-	au FileType html,css imap <C-f> <C-y>,
+	au FileType html,css,xml imap <S-Tab> <C-y>,<CR><CR><Up>
+	au FileType html,css,xml imap <C-f> <C-y>,
 augroup END
 
 " golang
