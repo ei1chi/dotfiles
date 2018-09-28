@@ -40,6 +40,8 @@ Plug 'tyru/caw.vim'
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
 
+Plug 'romainl/vim-cool'
+
 " ------------------------------------------------------------
 "  ファイラ、検索
 " ------------------------------------------------------------
