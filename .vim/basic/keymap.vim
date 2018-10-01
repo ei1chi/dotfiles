@@ -16,7 +16,7 @@ noremap m n
 
 nnoremap e v
 nnoremap n V
-nnoremap <C-e> <C-v>
+nnoremap E <C-v>
 
 map Y y$
 
@@ -32,10 +32,10 @@ nnoremap ] zC
 
 nnoremap <C-h> :cnext<CR>
 nnoremap <C-l> :cprevious<CR>
-nnoremap <C-w> :cclose<CR>
+nnoremap <C-c> :cclose<CR>
 nnoremap <C-s> <C-o>
 nnoremap <C-t> <C-i>
-nnoremap <C-g> zz
+nnoremap <C-g> zt
 
 " navigate windows
 nnoremap <Left> <C-w>h
@@ -47,5 +47,3 @@ nnoremap \|  :vs<CR>
 
 nnoremap j :w<CR>
 nnoremap Q :q<CR>
-
-nmap <Esc><Esc> :nohlsearch<CR><Esc>
