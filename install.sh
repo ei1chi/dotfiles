@@ -1,4 +1,4 @@
-DOT_DIRECTORY="${HOME}/Documents/dotfiles"
+DOT_DIRECTORY=$(cd $(dirname $0); pwd)
 
 for f in .??*
 do
