@@ -1,9 +1,9 @@
 " Basic motions by easymotion
-map L <Plug>(edgemotion-k)
+map R <Plug>(edgemotion-k)
 map H <Plug>(edgemotion-j)
 map f <Plug>(easymotion-overwin-f2)
-map r <Plug>(easymotion-bd-fl)
-map k e<Plug>(easymotion-bd-fl)
+map n <Plug>(easymotion-bd-fl)
+map k n<Plug>(easymotion-bd-fl)
 nmap w <Plug>(easymotion-bd-wl)
 vmap w <Plug>(easymotion-bd-wl)
 
