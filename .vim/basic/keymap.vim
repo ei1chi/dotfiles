@@ -9,8 +9,6 @@ noremap T $
 noremap <BS> "_xh
 noremap x "_s
 
-noremap & ~
-
 noremap b N
 noremap m n
 
