@@ -7,8 +7,8 @@ nnoremap e v
 nnoremap E V
 nnoremap <C-e> <C-v>
 
-noremap b N
-noremap m n
+noremap ( N
+noremap ) n
 
 map Y y$
 
@@ -22,10 +22,8 @@ noremap x "_s
 nnoremap [ zO
 nnoremap ] zC
 
-nnoremap <C-h> :cnext<CR>
-nnoremap <C-r> :cprevious<CR>
 nnoremap <C-c> :cclose<CR>
-nnoremap <C-s> <C-o>
+nnoremap <C-h> <C-o>
 nnoremap <C-t> <C-i>
 nnoremap <C-l> zt
 
@@ -38,4 +36,4 @@ nnoremap <Right> <C-w>l
 nnoremap \|  :vs<CR>
 
 nnoremap j :w<CR>
-nnoremap _ :q<CR>
+nnoremap q :q<CR>
