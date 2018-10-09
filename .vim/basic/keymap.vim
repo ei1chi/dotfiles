@@ -21,8 +21,8 @@ noremap <BS> "_xh
 noremap x "_s
 
 " folding
-nnoremap [ zO
-nnoremap ] zC
+nnoremap [ zo
+nnoremap ] zc
 
 " quick mark
 noremap H mH

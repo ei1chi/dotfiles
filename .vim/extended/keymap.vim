@@ -19,7 +19,7 @@ map ;r <Plug>(operator-sandwich-replace)<Plug>(textobj-sandwich-auto-a)
 inoremap <silent> <C-j> <C-^><C-r>=IMState('FixMode')<CR>
 
 " Tagbar
-nnoremap <C-k> :TagbarToggle<CR>
+nnoremap <C-t> :TagbarOpen fj<CR>
 
 " Close buffer without collapse window layout
 nnoremap <silent> v :Bclose<CR>
