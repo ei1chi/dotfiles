@@ -27,10 +27,10 @@ nnoremap ] zc
 " quick mark
 noremap H mH
 noremap S mS
-noremap R mR
+noremap B mB
 noremap kh `H
 noremap ks `S
-noremap kr `R
+noremap kb `B
 
 nnoremap <C-h> :cprevious<CR>
 nnoremap <C-s> :cnext<CR>
