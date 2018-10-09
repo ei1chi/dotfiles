@@ -12,4 +12,4 @@ function! s:ChangeCurrentDir(directory, bang)
 endfunction
 
 " Change current directory.
-nnoremap <silent> & :<C-u>CD<CR>
+nnoremap <silent> _ :<C-u>CD<CR>
