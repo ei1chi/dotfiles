@@ -11,6 +11,8 @@ noremap ( N
 noremap ) n
 
 map Y y$
+noremap m <C-o>
+noremap M <C-i>
 
 nnoremap + <C-a>
 nnoremap - <C-x>
@@ -22,9 +24,13 @@ noremap x "_s
 nnoremap [ zO
 nnoremap ] zC
 
+" quick mark
+noremap H mH
+noremap S mS
+noremap kh `H
+noremap ks `S
+
 nnoremap <C-c> :cclose<CR>
-nnoremap <C-h> <C-o>
-nnoremap <C-t> <C-i>
 nnoremap <C-l> zt
 
 " navigate windows

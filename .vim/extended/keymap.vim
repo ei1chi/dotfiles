@@ -1,9 +1,8 @@
 " Basic motions by easymotion
 map R <Plug>(edgemotion-k)
-map H <Plug>(edgemotion-j)
-map f <Plug>(easymotion-overwin-f2)
+map T <Plug>(edgemotion-j)
+map l <Plug>(easymotion-overwin-f2)
 map n <Plug>(easymotion-bd-fl)
-map k n<Plug>(easymotion-bd-fl)
 nmap w <Plug>(easymotion-bd-wl)
 vmap w <Plug>(easymotion-bd-wl)
 
@@ -70,8 +69,8 @@ augroup vimrc_vaffle
 	autocmd!
 	au FileType vaffle nnoremap <buffer> . /
 	au FileType vaffle nmap <buffer> ~ <Plug>(vaffle-open-home)
-	au FileType vaffle nmap <buffer> s <Plug>(vaffle-open-parent)
-	au FileType vaffle nmap <buffer> t <Plug>(vaffle-open-current)
+	au FileType vaffle nmap <buffer> h <Plug>(vaffle-open-parent)
+	au FileType vaffle nmap <buffer> s <Plug>(vaffle-open-current)
 	au FileType vaffle nmap <buffer> a <Plug>(vaffle-toggle-all)
 	au FileType vaffle nmap <buffer> <Space> <Plug>(vaffle-toggle-current)
 	au FileType vaffle vmap <buffer> <Space> <Plug>(vaffle-toggle-current)
