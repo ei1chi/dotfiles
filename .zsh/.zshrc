@@ -38,6 +38,7 @@ alias awk='gawk'
 # alias cat='cat -n'
 alias less='less -NM'
 
+alias t='cd'
 alias i='git status'
 alias e='vim'
 alias lg='lazygit'

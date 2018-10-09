@@ -79,7 +79,7 @@ augroup vimrc_vaffle
 	au FileType vaffle nmap <buffer> <CR> <Plug>(vaffle-open-selected)
 	au FileType vaffle nmap <buffer> e <Plug>(vaffle-move-selected)
 	au FileType vaffle nmap <buffer> d <Plug>(vaffle-delete-selected)
-	au FileType vaffle nmap <buffer> r <Plug>(vaffle-rename-selected)
+	au FileType vaffle nmap <buffer> n <Plug>(vaffle-rename-selected)
 	au FileType vaffle nmap <buffer> q <Plug>(vaffle-quit)
 	au FileType vaffle nmap <buffer> o <Plug>(vaffle-mkdir)
 	au FileType vaffle nmap <buffer> i <Plug>(vaffle-new-file)

@@ -1,29 +1,22 @@
-noremap s h
-noremap h gj
+noremap h h
+noremap t gj
 noremap r gk
-noremap t l
-
-noremap S ^
-noremap T $
-
-nmap l w
-omap l w
-xmap l w
-
-noremap <BS> "_xh
-noremap x "_s
-
-noremap b N
-noremap m n
+noremap s l
 
 nnoremap e v
 nnoremap E V
 nnoremap <C-e> <C-v>
 
+noremap b N
+noremap m n
+
 map Y y$
 
 nnoremap + <C-a>
 nnoremap - <C-x>
+
+noremap <BS> "_xh
+noremap x "_s
 
 " folding
 nnoremap [ zO
