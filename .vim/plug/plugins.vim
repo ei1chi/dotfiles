@@ -26,8 +26,10 @@ Plug 'yuttie/comfortable-motion.vim'
 
 Plug 'easymotion/vim-easymotion'
 Plug 'haya14busa/vim-edgemotion'
+Plug 'haya14busa/vim-asterisk'
 
 Plug 'kana/vim-operator-user'
+Plug 'kana/vim-smartword'
 Plug 'osyo-manga/vim-operator-stay-cursor'
 
 let g:operator_sandwich_no_default_key_mappings = 1
