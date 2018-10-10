@@ -1,5 +1,5 @@
 function! s:format_perl()
-	call Preserve(':%! perltidy')
+	"call Preserve(':%! perltidy')
 endfunction
 
 augroup perl

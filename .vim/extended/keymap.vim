@@ -8,6 +8,8 @@ vmap w <Plug>(easymotion-bd-wl)
 
 map y <Plug>(operator-stay-cursor-yank)
 
+map f :<C-u>Autoformat<CR>
+
 " Sandwich operations
 map ;a <Plug>(operator-sandwich-add)
 map ;d <Plug>(operator-sandwich-delete)<Plug>(textobj-sandwich-query-a)
