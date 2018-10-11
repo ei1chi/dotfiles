@@ -3,8 +3,6 @@ map R <Plug>(edgemotion-k)
 map T <Plug>(edgemotion-j)
 map l <Plug>(easymotion-overwin-f2)
 map n <Plug>(easymotion-bd-fl)
-map w <Plug>(smartword-w)
-map b <Plug>(smartword-b)
 map * <Plug>(asterisk-z*)
 map # <Plug>(asterisk-z#)
 
