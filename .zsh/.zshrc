@@ -43,6 +43,12 @@ alias i='git status'
 alias e='vim'
 alias lg='lazygit'
 
+# function
+function gg() {
+	moveto=$(ghq root)/$(ghq list | fzf)
+	cd $moveto
+}
+
 # zplug
 export ZPLUG_HOME=$ZDOTDIR/.zplug
 source $ZPLUG_HOME/init.zsh
