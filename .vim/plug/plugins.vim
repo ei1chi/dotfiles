@@ -85,7 +85,7 @@ Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'maksimr/vim-jsbeautify'
 Plug 'othree/yajs.vim'
 
-Plug 'leafgarland/typescript-vim'
+Plug 'HerringtonDarkholme/yats.vim'
 Plug 'Quramy/tsuquyomi'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'Chiel92/vim-autoformat'
