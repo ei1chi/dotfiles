@@ -8,7 +8,7 @@ map # <Plug>(asterisk-z#)
 
 map y <Plug>(operator-stay-cursor-yank)
 
-map f :<C-u>Autoformat<CR>
+" map f :<C-u>Autoformat<CR>
 
 " Sandwich operations
 map ;a <Plug>(operator-sandwich-add)
@@ -44,15 +44,22 @@ function! s:find_git_root()
 	return system('git rev-parse --show-toplevel 2> /dev/null')[:-2]
 endfunction
 
-command! -bang -nargs=* Pt
+command! -bang -nargs=* GPt
 			\ call fzf#vim#grep(
 			\		'pt --column --hidden '.shellescape(<q-args>), 1,
 			\		fzf#vim#with_preview({ 'dir': s:find_git_root() }),
 			\		<bang>0)
 
+command! -bang -nargs=* Pt
+			\ call fzf#vim#grep(
+			\		'pt --column --hidden '.shellescape(<q-args>), 1,
+			\		fzf#vim#with_preview({ 'dir': './' }),
+			\		<bang>0)
+
 nnoremap <Space><Space> :<C-u>GFiles<CR>
-nnoremap <Space>f :<C-u>Files<CR>
-nnoremap <Space>s :Pt 
+nnoremap <Space>c :<C-u>Files<CR>
+nnoremap <Space>s :GPt 
+nnoremap <Space>t :Pt 
 nnoremap <Space>h :<C-u>History<CR>
 nnoremap <Space>b :<C-u>Buffers<CR>
 
